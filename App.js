@@ -10,9 +10,11 @@ export default function App() {
           sections={groupedPokemonList}
           renderItem={({ item }) => {
             return (
+              
               <View style={styles.card}>
                 <Text style={styles.cardText}>{item}</Text>
               </View>
+
             );
           }}
           renderSectionHeader={({ section }) => (
